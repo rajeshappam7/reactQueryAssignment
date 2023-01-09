@@ -1,0 +1,30 @@
+.user-style-btn {
+  margin-bottom: 45px;
+  border: 1px solid palevioletred;
+}
+.user-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  /* align-self: flex-start; */
+  background-color: rgb(240, 196, 196);
+  border-radius: 10px;
+  padding: 15px;
+}
+.link-style {
+}
+.user-del {
+  /* border: 1px solid rgb(187, 88, 88); */
+}
+.user-del:hover {
+  cursor: pointer;
+}
